@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Кейси — BitCraft Advisors</title>
+<meta name="description" content="Audit AI з 90%+ точністю для betting-компанії, аналітична екосистема з 38 джерел для US-холдингу, повна CRM-платформа для ресторанів з нуля.">
+<link rel="canonical" href="https://www.bitcrafters.io/ua/cases.html">
+<link rel="alternate" hreflang="en" href="https://www.bitcrafters.io/cases.html">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="logo" href="index.html">bitcraft<span>_</span>advisors</a>
+    <div class="nav-links">
+      <a href="services.html">Послуги</a>
+      <a href="cases.html" class="active">Кейси</a>
+      <a href="about.html">Про нас</a>
+      <a href="../cases.html" class="lang">EN</a>
+      <a href="contact.html" class="btn btn-primary btn-sm">Записатись на дзвінок</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="kicker">// кейси</div>
+    <h1>Реальні проєкти, <em>реальні цифри</em>.</h1>
+    <p class="sub">Деякі імена клієнтів під NDA. Метрики — ні.</p>
+  </div>
+</header>
+
+<section style="padding-top: 24px;">
+  <div class="wrap">
+
+    <article class="case-study" id="audit-ai">
+      <div class="tag">AI · iGaming · 2024–2025</div>
+      <h2>Audit AI для онлайн-betting компанії</h2>
+      <div class="meta">
+        <span><b>Тривалість:</b> 12 місяців</span>
+        <span><b>Команда:</b> 3 data-інженери · 1 PM · 1 data scientist</span>
+        <span><b>Стек:</b> Golang · PostgreSQL · Python</span>
+      </div>
+      <h4>Виклик</h4>
+      <p>Клієнт тримав п'ятьох аналітиків на повній ставці для ручної перевірки даних з кількох betting-платформ. Повільно, з помилками, дорого — а людська втома напряму коштувала грошей.</p>
+      <h4>Що ми збудували</h4>
+      <ul>
+        <li><b>Data-інфраструктура:</b> сховище даних плюс скрапери, що дістають і нормалізують дані з джерел, які клієнт вважав "непарсабельними".</li>
+        <li><b>AI-двигун:</b> модель, що відтворює логіку рішень експертів — точна навіть коли доступно лише 20% даних по угоді.</li>
+        <li><b>Шар автоматизації:</b> пайплайни на Golang + PostgreSQL + Python з постійним моніторингом, щоб точність не деградувала в проді.</li>
+      </ul>
+      <h4>Результати</h4>
+      <div class="case-results">
+        <div class="r"><div class="n">90%+</div><div class="l">збіг із рішеннями експертів (KPI був 85%)</div></div>
+        <div class="r"><div class="n">5 FTE</div><div class="l">звільнено від ручної перевірки</div></div>
+        <div class="r"><div class="n">20%</div><div class="l">покриття даних достатньо для точних рішень</div></div>
+      </div>
+    </article>
+
+    <article class="case-study" id="ecosystem">
+      <div class="tag">Data engineering · NDA-холдинг · 2 роки</div>
+      <h2>Повна аналітична екосистема для US мультибрендового холдингу</h2>
+      <div class="meta">
+        <span><b>Тривалість:</b> 2 роки</span>
+        <span><b>Команда:</b> 5–6 спеціалістів</span>
+        <span><b>Стек:</b> Hadoop · Hive · Presto · Python · Tableau</span>
+      </div>
+      <h4>Виклик</h4>
+      <p>Холдинг з 15-річною історією і 200+ брендами вів аналітику в ручних Excel-звітах. Дані були розкидані по десятках баз, API і таблиць, накопичених за десятиліття. Рішення займали тижні.</p>
+      <h4>Що ми збудували</h4>
+      <ul>
+        <li><b>Сховище даних:</b> об'єднано 38 джерел — 23 бази даних, 8 API, 7 Google Docs — з автоматичними щогодинними і щоденними пайплайнами.</li>
+        <li><b>BI-система:</b> 300+ Tableau-дашбордів, повністю автоматичний P&amp;L по всій компанії, ad-hoc аналіз для кожного підрозділу.</li>
+        <li><b>Real-time моніторинг:</b> 5-хвилинні health-чеки критичних метрик з миттєвими алертами в Slack.</li>
+        <li><b>Data science:</b> прогноз LTV, моделі відтоку і chargeback, форкаст активних користувачів, сегментація трафіку.</li>
+      </ul>
+      <h4>Результати</h4>
+      <div class="case-results">
+        <div class="r"><div class="n">38 → 1</div><div class="l">джерел даних в одному сховищі</div></div>
+        <div class="r"><div class="n">300+</div><div class="l">дашбордів, вкл. автоматичний P&amp;L</div></div>
+        <div class="r"><div class="n">100+ год</div><div class="l">ручної звітності усунено щомісяця</div></div>
+      </div>
+    </article>
+
+    <article class="case-study" id="justy">
+      <div class="tag">Продукт повного циклу · Ресторанний бізнес · 2023–зараз</div>
+      <h2>Justy — CRM-екосистема для ресторанного бізнесу</h2>
+      <div class="meta">
+        <span><b>Тривалість:</b> з 2023, триває</span>
+        <span><b>Команда:</b> 8 спеціалістів</span>
+        <span><b>Стек:</b> Go · PostgreSQL · Angular · Swift · Kotlin</span>
+      </div>
+      <h4>Виклик</h4>
+      <p>Збудувати платформу управління рестораном і залучення гостей повністю з нуля: CRM, веб-меню, нативні мобільні застосунки і Telegram-бот — все як одна система. Ось як виглядає "збудовано правильно з першого дня".</p>
+      <h4>Що ми збудували</h4>
+      <ul>
+        <li><b>Backend:</b> масштабована архітектура Go + PostgreSQL із захищеним API-шаром і fallback-логікою для нестабільних сторонніх API.</li>
+        <li><b>Мобайл:</b> нативні iOS (Swift, SwiftUI) і Android (Kotlin, Jetpack Compose) застосунки з повним покриттям тестами.</li>
+        <li><b>Веб і CRM:</b> CRM-дашборд на Angular для ресторанів-партнерів — меню, замовлення, клієнти.</li>
+        <li><b>Чат-бот:</b> кастомний Telegram-бот для взаємодії з гостями і замовлень.</li>
+      </ul>
+      <h4>Результати</h4>
+      <div class="case-results">
+        <div class="r"><div class="n">0 → MVP</div><div class="l">повна платформа з нуля</div></div>
+        <div class="r"><div class="n">5</div><div class="l">ресторанів-партнерів на запуску</div></div>
+        <div class="r"><div class="n">4</div><div class="l">продукти в одній екосистемі: CRM, веб, мобайл, бот</div></div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="cta-final" style="padding-top: 0;">
+  <div class="wrap">
+    <h2>Хочете таких результатів?</h2>
+    <p>Розкажіть про свій проєкт — скажемо, що реалістично.</p>
+    <a class="btn btn-primary" href="contact.html">Безкоштовний дзвінок</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot">
+    <div><span class="logo">bitcraft<span style="color:var(--accent)">_</span>advisors</span></div>
+    <div>Валенсія, Іспанія · Київ, Україна</div>
+    <div><a href="mailto:andrii@bitcrafters.io">andrii@bitcrafters.io</a></div>
+    <div>© 2018–2026 BitCraft Advisors</div>
+  </div>
+</footer>
+
+</body>
+</html>
